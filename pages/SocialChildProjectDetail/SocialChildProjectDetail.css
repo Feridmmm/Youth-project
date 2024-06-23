@@ -1,0 +1,65 @@
+.social-child-project-detail-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.social-child-project-detail-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: center;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.image-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+.gallery-image {
+  width: 100%;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+.gallery-image.selected {
+  border: 3px solid #2e3a87;
+}
+
+.social-child-project-detail-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.social-child-project-detail-image {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.cart-button {
+  padding: 10px 20px;
+  background-color: #2e3a87;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.cart-button:hover {
+  background-color: #1c2466;
+}

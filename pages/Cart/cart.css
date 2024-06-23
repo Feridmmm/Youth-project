@@ -1,0 +1,85 @@
+.cart-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px; /* Adjust if your navbar height is different */
+}
+
+.cart-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cart-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cart-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.cart-item-image {
+  width: 50%;
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+.cart-item-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.cart-item-details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item-details p {
+  margin: 10px 0;
+  font-size: 1.2em; /* Increase text size */
+}
+
+.cart-item-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.remove-button, .save-button {
+  padding: 8px 16px; /* Reduce button size */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-button {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.remove-button:hover {
+  background-color: #cc0000;
+}
+
+.save-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}

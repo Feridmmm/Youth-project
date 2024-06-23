@@ -1,0 +1,64 @@
+.kindergarten-detail-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px; /* Adjust if your navbar height is different */
+}
+
+.kindergarten-detail-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 80%;
+}
+
+.image-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.gallery-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.gallery-image.selected {
+  border: 2px solid #2e3a87;
+}
+
+.kindergarten-detail-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+}
+
+.kindergarten-detail-image {
+  width: 100%;
+  max-width: 700px; /* Set a max-width for the image */
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px; /* Add some space below the image */
+}
+
+.cart-button {
+  padding: 10px 20px;
+  background-color: #2e3a87;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.cart-button:hover {
+  background-color: #1c2466;
+}

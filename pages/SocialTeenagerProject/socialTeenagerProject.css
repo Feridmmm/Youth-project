@@ -1,0 +1,78 @@
+/* socialTeenagerProject.css */
+.socialTeenagerProject-page {
+  display: flex;
+  height: 100vh;
+  margin-top: 50px;
+}
+
+.left-side {
+  width: 30%;
+  overflow-y: scroll;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.right-side {
+  width: 70%;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.socialTeenager-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.socialTeenager-item:hover {
+  background-color: #f0f0f0;
+}
+
+.socialTeenager-item p {
+  margin: 5px 0;
+}
+
+.socialTeenager-map {
+  flex: 1;
+}
+
+.left-side ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.left-side li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.left-side li:hover {
+  background-color: #f0f0f0;
+}
+
+.left-side p {
+  margin: 5px 0;
+  text-decoration: none;
+  color: black;
+}
+
+.left-side a {
+  text-decoration: none;
+  color: black;
+}
+
+.left-side a:visited {
+  color: black;
+}
+
+.left-side a:hover {
+  color: black;
+  background-color: #f0f0f0;
+}
+
+.left-side a:active {
+  color: black;
+  background-color: #f0f0f0;
+}

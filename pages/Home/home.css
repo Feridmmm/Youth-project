@@ -1,0 +1,59 @@
+/* body.css */
+@media (max-width: 768px) {
+    .body {
+      padding: 60px 20px;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .text-content {
+      max-width: 100%;
+      padding: 0 10px;
+    }
+  
+    .text-content h1 {
+      font-size: 1.8em;
+      margin-bottom: 15px;
+    }
+  
+    .text-content p {
+      font-size: 1em;
+      margin-bottom: 15px;
+      line-height: 1.4;
+    }
+  
+    .services-button {
+      font-size: 1em;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .body {
+      padding: 80px 40px;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .text-content {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  
+    .text-content h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+  
+    .text-content p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+  
+    .services-button {
+      font-size: 1.1em;
+      padding: 10px 20px;
+    }
+  }
+  

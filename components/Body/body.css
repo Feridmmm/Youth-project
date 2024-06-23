@@ -1,0 +1,55 @@
+.body {
+    display: flex;
+    align-items: flex-start; /* Align items to the start to add margin from the top */
+    justify-content: flex-start;
+    padding: 120px 40px; /* Add padding-top to avoid overlap with fixed navbar */
+    font-family: 'Arial', sans-serif; /* Match font with Navbar */
+    background-image: url('../../assets/service.png'); /* Path to your new image */
+    background-size: cover;
+    background-position: top; /* Ensure the top of the image is fully visible */
+    background-repeat: no-repeat;
+    height: 100vh; /* Full height */
+    color: white; /* White text color for contrast */
+  }
+  
+  .text-content {
+    max-width: 600px; /* Limit the width of the text content */
+    margin-top: 40px; /* Add margin from the top */
+    /* Remove background color and padding for the text */
+  }
+  
+  .text-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #1c2466; /* Ensure the heading color is white for contrast */
+  }
+  
+  .text-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.5; /* Improve readability */
+    color: rgb(49, 23, 23); /* Ensure the paragraph color is white for contrast */
+  }
+  .text-content h2{
+    color: #1c2466;
+  }
+  
+  .services-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #2e3a87; /* Dark blue button color */
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .services-button:hover {
+    background-color: #1c2466; /* Darker blue on hover */
+  }
+  
+
+
+  
